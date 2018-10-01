@@ -65,7 +65,7 @@ print(max([int(input("Enter a number: ")) for x in range(10)]))
 
 # Q.7 Write an infinite loop.An infinite loop never ends. Condition is always true. 
 while True:
-    print("Infiite")
+    print("Infinite")
 
 
 #Q.8 From a list containing ints, strings and floats, make three lists to store them separately
