@@ -100,7 +100,14 @@ def printSeriesIncreasing1(symbol,n):
 	return
 printSeriesIncreasing1('*',4)
 
+#Q.11 Take inputs from user to make a list. Again take one input from user and search it in the list and delete that element, if found. Iterate over list using for loop.
 
+l = list(map(int,input("Enter list elements: ").split()))
+element = int(input("Enter the element to search: "))
+if element in l:
+    print("Element found")
+    del l[l.index(element)]
+print(l)
     
     
     
